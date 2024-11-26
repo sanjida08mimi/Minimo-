@@ -1,0 +1,233 @@
+/* font linking start */
+@font-face {
+    font-family: playfairdisplay;
+    src: url(../fonts/playfairdisplay/playfairdisplay-regular.ttf);
+   }  
+@font-face {
+    font-family: ubunto;
+    src: url(../fonts/ubuntu/ubuntu-light.ttf);
+   } 
+/* font linking end*/
+/* common css start */
+body{
+    font-family: playfairdisplay;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+}
+/* common css end */
+/* header start  */
+header{
+    padding: 60px 0;
+}
+.container{
+ width: 90%;
+ overflow: hidden;
+ margin:0 auto;
+ /* border: 1px solid red; */
+
+}
+.logo{
+    float: left;
+    width: 13%;
+    display: inline-block;
+    margin-top: 12px;
+} 
+.menu{
+    width: 65%;
+    float: right;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 50px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262 ;
+
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+} 
+.menu ul li a:hover {
+    border-bottom: 1px solid black;
+} 
+/* header end  */
+/* banner start  */
+.b_img img{
+    width: 100%;
+} 
+.perfect{
+    margin-top:100px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+} 
+.c_light{
+    margin: 0;
+    font-family: ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b3ac9d;
+}
+.c_title{
+
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_p{ 
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+} 
+.c_link{
+   display: block;
+   margin-top: 35px;
+   text-decoration: none;
+   
+} 
+/* banner end */
+/* single-pic start  */
+.s_b{
+    float: left;
+    width: 47%;
+    margin-top: 100px;
+}
+.s_b img{
+    width: 100%;
+}
+.s_b:nth-child(even){
+    margin-left: 6%;
+}
+.c_margin{
+ margin-top: 25px;
+}
+/* single-pic end  */
+
+/* newsletter-start */
+.news{
+    margin-top: 100px;
+    background-color: #f0f0f0; 
+    padding: 70px 0; 
+  }
+.signup{
+  text-align: center;    
+  }
+.s_h1{
+      color:#333333;
+      margin-top: 0;
+      margin-bottom: 70px;
+  }
+.s_form{
+      width: 400px;
+      /*border: 2px solid red;*/
+      margin: 0 auto;  
+      position: relative; 
+}
+.s_form input{
+  font-family:playfairdisplay ;
+  font-size :14px;
+  color:#626262;
+  width: 345px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: transparent;
+  padding-left: 5px;
+  padding-right: 45px; 
+  
+}
+.s_form input:focus{
+      outline: 0;
+  }
+.s_form button{
+      position: absolute;
+      background: transparent;
+      border:none;
+      cursor: pointer;
+      top:15px;
+      right:-33px;
+}
+.s_form button:focus{
+      outline: 0;
+}
+
+/* newsletter-end */
+/* blog start */ 
+
+/* blog end */
+/* buttun start */
+.load{
+    text-align: center;
+    padding: 100px 0px;
+}
+.load button{
+    font-family: playfairdisplay;
+    font-weight: 400;
+    font-size: 20px;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: transparent;
+    color: #626262;
+    cursor:pointer;
+    transition: 0.33s linear;
+}
+.load button:hover{
+    background-color: #626262 ;
+    color: white;
+}
+/* buttun end  */
+/* footer start */
+footer{
+    background-color: #f0f0f0;
+    min-height: 96px;
+}
+.page{
+    float: left;
+    width: 22%;
+}
+.social{
+    float: right;
+    margin-left:67% ;
+    width: 11%;
+}
+.content{
+    padding: 48px 0px 48px;
+}
+.content ul{
+   padding: 0;
+   margin: 0;
+}
+
+.content ul li{
+    list-style: none;
+} 
+.content ul li a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding-right: 10%;
+}
+.content img{
+    width: 100%;
+}
+.social ul li:last-child a {
+    padding-right: 0;
+} 
+
+
+/* footer end */
